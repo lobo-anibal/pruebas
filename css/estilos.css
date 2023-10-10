@@ -8,11 +8,6 @@ body {
     font-family: 'open sans';
 }
 
-/* header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .float-logo {
     position: fixed;
@@ -36,6 +31,7 @@ body {
     height: fit-content;
     background-color: rgba(13, 13, 13, 0.3);
 }
+
 
 .menu-left {
     display: flex;
@@ -367,20 +363,10 @@ height: 100px;
     width: 30%;
 }
 
-
-
-
-
-
 .titulo-final{
     margin-top: 20px;
 text-align: center;
 }
-
-
-
-
-
 
 .flecha {
     float: right;
@@ -394,4 +380,34 @@ text-align: center;
     height: auto;
     background-color: white;
     border-radius: 40px;
+}
+
+#data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#data img{
+    width: 15vw;
+    margin: 10px;
+}
+
+.tarjetaP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 250px;
+    padding: 10px;
+}
+
+.tarjetaP h6{
+text-align: center;
+width: 95%;
+font-size: 1.5vw;
 }
