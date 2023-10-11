@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 
 <body>
@@ -22,33 +22,43 @@
     </a>
     <header>
         <div class="menu">
-            <div class="menu-left">
+            <!-- <div class="menu-left">
                 <img src="./img/logo.png" alt="">
             </div class="navbar-toggler">
-            <!-- <nav class="menu-right">
+            <nav class="menu-right">
                 <a href="#">Inicio</a>
                 <a href="#quienes-somos">Quienes Somos</a>
                 <a href="#Servicios">Servicios</a>
                 <a href="#Asesoramiento">Asesoramientos</a>
                 <a href="#Contacto">Contacto</a>
             </nav> -->
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark menu-right">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav-propio">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Logo</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <a class="navbar-brand " href="#"><img src="./img/soporte-tecnico.png" alt="" width="50"></a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <div class="collapse navbar-collapse " id="collapsibleNavbar">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a href="#quienes-somos">Quienes Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a href="#Servicios">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Asesoramiento">Asesoramientos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./productos.html">Productos</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="#Contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -215,7 +225,6 @@
         </section>
     </main>
     <footer>
-
         <div class="contenedor-footer">
             <div class="cont">
                 <div class="content-foo">
@@ -233,21 +242,44 @@
             </div>
         </div>
 
-        <div id="data">
-        </div>
-
-
-
         <div>
             <h2 class="titulo-final"> GRUPO SOPORTE IT | Maximiliano Pozo - Anibal Lobo - Daniela Lopez -Juan Pavoni
             </h2>
         </div>
 
+
+
+        <!-- <section class="product">
+            <div class="Producto-empresa">
+                <h1>
+                    Producto para Empresas <br>
+                    Esto viene de un Json en linea
+                </h1>
+            </div>
+            <div id="data">
+                <!-- Productos que vienen de un json -->
+        </div>
+
+        </section> -->
     </footer>
+
+
     <a href="#" class="flecha"><img src="https://cdn-icons-png.flaticon.com/512/44/44603.png" alt=""
             class="imagenflecha"></a>
 
     <script src="./js/index.js"></script>
+    <script src="./js/vue.js"></script>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

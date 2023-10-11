@@ -1,3 +1,9 @@
+localStorage.setItem("nombre","ana")
+localStorage.setItem("apellido","paz")
+localStorage.setItem("edad","56")
+
+
+
 // URL del servicio JSON
 const url =
   "https://my-json-server.typicode.com/lobo-anibal/apis-json-archive/db";
@@ -34,15 +40,15 @@ fetch(url)
   });
 
 
-let encabezado="";
+let encabezado=" ";
 
 encabezado=`
 <div class="menu">
-                <div class="menu-left">
+                <div>
                     <img src="./img/logo.png" alt="">
                 </div>
                 <nav class="menu-right">
-                    <a href="#">Inicio</a>
+                    <a href="./index.html">Inicio</a>
                     <a href="#quienes-somos">Quienes Somos</a>
                     <a href="#Servicios">Servicios</a>
                     <a href="#Asesoramiento">Asesoramientos</a>
