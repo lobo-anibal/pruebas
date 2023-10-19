@@ -8,7 +8,20 @@ body {
     font-family: 'open sans';
 }
 
+/*logo flotante flecha*/
+.float-logo-flecha {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 20px;
+    z-index: 1000;
+}
 
+.float-logo-flecha:hover {
+    transform: scale(1.5);
+}
+
+/*logo flotante whatsapp*/
 .float-logo {
     position: fixed;
     bottom: 80px;
@@ -259,7 +272,7 @@ main .sobre-nosotros {
 
 .contenedor-contact {
     box-sizing: border-box;
-    background-image: url('../img/Form.jpg');
+    background-color: rgb(73, 87, 177, 0.3);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,6 +303,11 @@ main .sobre-nosotros {
     text-align: center;
     margin-bottom: 20px;
     color: white;
+  
+}
+
+#boton{
+padding: 2%;
 }
 
 #sendmessage h1 {
@@ -303,7 +321,10 @@ main .sobre-nosotros {
 
 
 .contactForm {
-    background-color: rgb(73, 87, 177, 0.3);
+
+    background-color: #4d0686;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
     width: 90%;
     height: fit-content;
     padding: 20px;
@@ -319,7 +340,8 @@ main .sobre-nosotros {
 
 
 .mapa {
-    background-color: rgb(73, 87, 177, 0.3);
+
+
     width: 90%;
     height: 70%;
     padding: 20px;
@@ -328,8 +350,11 @@ main .sobre-nosotros {
 }
 
 .mapa iframe {
+
     width: 90%;
     height: 80%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
 }
 
 
@@ -340,6 +365,7 @@ main .sobre-nosotros {
 .contenedor-footer {
     background-color: #f2f2f2;
     width: 100%;
+
 }
 
 .cont {
@@ -350,6 +376,7 @@ main .sobre-nosotros {
     width: 100%;
     height: 10vh;
     color: white;
+    padding: 50px;
 }
 
 .content-foo {
@@ -358,26 +385,16 @@ main .sobre-nosotros {
     align-items: center;
     justify-content: space-evenly;
     width: 30%;
+
 }
 
 .titulo-final {
     margin-top: 20px;
     text-align: center;
+    font-size: small;
 }
 
-.flecha {
-    float: right;
-    width: 90%;
-    height: fit-content;
-    text-align: right;
-}
 
-.imagenflecha {
-    width: 30px;
-    height: auto;
-    background-color: white;
-    border-radius: 40px;
-}
 
 #data {
     display: flex;
@@ -415,15 +432,16 @@ main .sobre-nosotros {
     margin-top: 40;
 }
 
-.nav-propio{
+.nav-propio {
     background-color: aquamarine;
 }
 
-.nav-propio li,a {
+.nav-propio li,
+a {
     margin: 10px;
     font-size: 1.3rem;
 }
 
-.encabezado{
+.encabezado {
     position: fixed;
 }
